@@ -67,6 +67,84 @@ p{
     justify-content: center;
 }
 
+.button{
+    padding: 3px;
+    width: 100px;
+    height: 28px;
+    margin-top: 12px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    background: white
+}
+.text{
+    display: flex;
+    font-size: 36px;
+    font-weight:bolder;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.box{
+    width: 181px;
+    text-align: center;
+    color:grey;
+}
+.container3{
+    background: #E5E7EB;
+    height: 500px;
+    margin-top: 150px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.author{
+    margin-top: 120px;
+    margin-left: 1000px;
+    font-style: italic;
+}
+
+
+.quote{
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+.container4{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.action{
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 17px;
+    
+}
+
+h3{
+    color: white;
+}
+
 button{
     padding: 3px;
     width: 100px;
@@ -74,7 +152,17 @@ button{
     margin-top: 12px;
     background-color: #3882F6;
     color: white;
-    border: 0px;
     border-radius: 5px;
+    border-color: white;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.471);
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
